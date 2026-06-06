@@ -1,234 +1,58 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Arcform Studio — Digital Experiences</title>
-  <link rel="stylesheet" href="style.css" />
-  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700;900&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet"/>
-</head>
-<body>
-
-  <!-- ── NAVBAR ── -->
-  <header class="navbar" id="navbar">
-    <div class="nav-inner">
-      <a href="#" class="logo">Arcform<span>.</span></a>
-      <nav class="nav-links" id="navLinks">
-        <a href="#work">Work</a>
-        <a href="#services">Services</a>
-        <a href="#about">About</a>
-        <a href="#contact" class="nav-cta">Let's Talk</a>
-      </nav>
-      <button class="hamburger" id="hamburger" aria-label="Toggle menu">
-        <span></span><span></span><span></span>
-      </button>
-    </div>
-  </header>
-
-  <!-- ── HERO ── -->
-  <section class="hero" id="home">
-    <div class="hero-bg">
-      <div class="blob blob-1"></div>
-      <div class="blob blob-2"></div>
-      <div class="grain"></div>
-    </div>
-    <div class="hero-content">
-      <p class="hero-eyebrow reveal">Digital Studio — Est. 2026</p>
-      <h1 class="hero-headline reveal">
-        We craft<br/>
-        <em>digital spaces</em><br/>
-        that resonate.
-      </h1>
-      <p class="hero-sub reveal">Responsive interfaces. Purposeful design. Zero compromises.</p>
-      <div class="hero-actions reveal">
-        <a href="#work" class="btn-primary">View Our Work</a>
-        <a href="#contact" class="btn-ghost">Start a Project ↗</a>
-      </div>
-    </div>
-  </section>
-
-  <!-- ── MARQUEE STRIP ── -->
-  <div class="marquee-strip">
-    <div class="marquee-track">
-      <span>Responsive Design</span><span>·</span>
-      <span>HTML5 Semantics</span><span>·</span>
-      <span>CSS Grid & Flexbox</span><span>·</span>
-      <span>JavaScript Logic</span><span>·</span>
-      <span>Mobile-First</span><span>·</span>
-      <span>WCAG Compliant</span><span>·</span>
-      <span>Responsive Design</span><span>·</span>
-      <span>·</span>
-      <span>HTML5 Semantics</span><span>·</span>
-      <span>CSS Grid & Flexbox</span><span>·</span>
-      <span>JavaScript Logic</span><span>·</span>
-      <span>Mobile-First</span><span>·</span>
-      <span>WCAG Compliant</span><span>·</span>
-    </div>
-  </div>
-
-  <!-- ── WORK ── -->
-  <section class="section work-section" id="work">
-    <div class="container">
-      <div class="section-header reveal">
-        <span class="section-tag">Selected Work</span>
-        <h2>Projects that<br/><em>speak for themselves.</em></h2>
-      </div>
-      <div class="projects-grid">
-        <article class="project-card reveal" data-num="01">
-          <div class="card-img">
-            <img src="https://images.unsplash.com/photo-1469854523086-cc02fe5d8800?w=800&q=80" alt="Nomad Collective — Travel booking platform" loading="lazy"/>
-          </div>
-          <div class="card-info">
-            <h3>Nomad Collective</h3>
-            <p>Travel booking platform · UI Design & Frontend</p>
-          </div>
-          <a href="#" class="card-link" aria-label="View Nomad Collective">↗</a>
-        </article>
-        <article class="project-card reveal" data-num="02">
-          <div class="card-img">
-            <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=800&q=80" alt="Luminary SaaS — Dashboard and Analytics" loading="lazy"/>
-          </div>
-          <div class="card-info">
-            <h3>Luminary SaaS</h3>
-            <p>Dashboard & Analytics · Frontend Development</p>
-          </div>
-          <a href="#" class="card-link" aria-label="View Luminary SaaS">↗</a>
-        </article>
-        <article class="project-card reveal" data-num="03">
-          <div class="card-img">
-            <img src="https://images.unsplash.com/photo-1542838132-92c53300491e?w=800&q=80" alt="Verdant Organics — E-commerce store" loading="lazy"/>
-          </div>
-          <div class="card-info">
-            <h3>Verdant Organics</h3>
-            <p>E-commerce Store · Responsive Layout</p>
-          </div>
-          <a href="#" class="card-link" aria-label="View Verdant Organics">↗</a>
-        </article>
-      </div>
-    </div>
-  </section>
-
-  <!-- ── SERVICES ── -->
-  <section class="section services-section" id="services">
-    <div class="container">
-      <div class="section-header reveal">
-        <span class="section-tag">What We Do</span>
-        <h2>Built on three<br/><em>core pillars.</em></h2>
-      </div>
-      <div class="services-list">
-        <div class="service-item reveal">
-          <span class="service-num">01</span>
-          <div class="service-body">
-            <h3>Interface Design</h3>
-            <p>From wireframe to pixel-perfect layout — empathy-driven design that honors the mobile-first paradigm and 2025 UI standards.</p>
-          </div>
-          <div class="service-icon">⬡</div>
-        </div>
-        <div class="service-item reveal">
-          <span class="service-num">02</span>
-          <div class="service-body">
-            <h3>Frontend Development</h3>
-            <p>Semantic HTML5, CSS Grid & Flexbox, and vanilla JavaScript — no bloated frameworks, just clean, maintainable fundamentals.</p>
-          </div>
-          <div class="service-icon">⬡</div>
-        </div>
-        <div class="service-item reveal">
-          <span class="service-num">03</span>
-          <div class="service-body">
-            <h3>Accessibility & Performance</h3>
-            <p>WCAG-compliant code, LCP/CLS optimisation, and universal access so your product works for everyone, on every device.</p>
-          </div>
-          <div class="service-icon">⬡</div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- ── ABOUT ── -->
-  <section class="section about-section" id="about">
-    <div class="container about-grid">
-      <div class="about-text reveal">
-        <span class="section-tag">About Us</span>
-        <h2>We believe the web<br/>should work for <em>everyone.</em></h2>
-        <p>Arcform is a boutique digital studio founded on one principle: interfaces should be as thoughtful as the people who use them. We obsess over hierarchy, spacing, motion, and meaning.</p>
-        <p>Our mandate is simple — master fundamentals before chasing frameworks. Every pixel is intentional.</p>
-        <a href="#contact" class="btn-primary">Work With Us</a>
-      </div>
-      <div class="about-stats reveal">
-        <div class="stat-card">
-          <span class="stat-num" data-target="48">0</span>
-          <span class="stat-label">Projects Shipped</span>
-        </div>
-        <div class="stat-card">
-          <span class="stat-num" data-target="99">0</span>
-          <span class="stat-label">Lighthouse Score</span>
-        </div>
-        <div class="stat-card">
-          <span class="stat-num" data-target="12">0</span>
-          <span class="stat-label">Happy Clients</span>
-        </div>
-        <div class="stat-card">
-          <span class="stat-num" data-target="3">0</span>
-          <span class="stat-label">Years in Craft</span>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- ── TESTIMONIAL ── -->
-  <section class="section testimonial-section">
-    <div class="container">
-      <blockquote class="testimonial reveal">
-        <p>"Arcform transformed a rough idea into a stunning, fully responsive interface — delivered on time and beyond our expectations."</p>
-        <footer>— Sarah Malik, CEO · Luminary SaaS</footer>
-      </blockquote>
-    </div>
-  </section>
-
-  <!-- ── CONTACT ── -->
-  <section class="section contact-section" id="contact">
-    <div class="container contact-inner">
-      <div class="contact-text reveal">
-        <span class="section-tag">Get In Touch</span>
-        <h2>Ready to build<br/>something <em>remarkable?</em></h2>
-        <p>Drop us a message and we'll get back to you within 24 hours.</p>
-        <div class="contact-links">
-          <a href="mailto:hello@arcform.studio">hello@arcform.studio</a>
-          <a href="tel:+11234567890">+1 (123) 456‑7890</a>
-        </div>
-      </div>
-      <div class="contact-form-wrap reveal">
-        <div class="form-group">
-          <label for="name">Your Name</label>
-          <input type="text" id="name" placeholder="Jane Smith" autocomplete="name"/>
-        </div>
-        <div class="form-group">
-          <label for="email">Email Address</label>
-          <input type="email" id="email" placeholder="jane@company.com" autocomplete="email"/>
-        </div>
-        <div class="form-group">
-          <label for="message">Tell Us About Your Project</label>
-          <textarea id="message" rows="4" placeholder="We're building a responsive e-commerce site and need…"></textarea>
-        </div>
-        <button class="btn-primary btn-full" id="submitBtn">Send Message →</button>
-        <p class="form-success" id="formSuccess">✓ Message sent! We'll be in touch soon.</p>
-      </div>
-    </div>
-  </section>
-
-  <!-- ── FOOTER ── -->
-  <footer class="footer">
-    <div class="container footer-inner">
-      <a href="#" class="logo">Arcform<span>.</span></a>
-      <p class="footer-copy">© 2024 Arcform Studio. Crafted with care.</p>
-      <nav class="footer-nav">
-        <a href="#work">Work</a>
-        <a href="#services">Services</a>
-        <a href="#contact">Contact</a>
-      </nav>
-    </div>
-  </footer>
-
-  <script src="script.js"></script>
-</body>
-</html>
+Project 1 — Responsive Frontend Interface 🎨
+> **DecodeLabs Internship · Batch 2026**
+![Live Demo](https://img.shields.io/badge/Live%20Demo-Visit%20Site-1D9E75?style=for-the-badge)
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+---
+🌐 Live Demo
+→ israrkhan371.github.io/DecodeLabs-Internship/Project-1_Responsive-Frontend/
+---
+📌 Project Overview
+Detail	Info
+Goal	Build a fully responsive landing page for a web application
+Tech Stack	HTML5 · CSS3 · Vanilla JavaScript
+Key Skills	Responsive Design · CSS Grid · Flexbox · Semantic HTML · DOM Manipulation
+Status	✅ Completed
+---
+🏗️ What I Built
+A professional landing page for a fictional digital studio — Arcform Studio — featuring:
+Mobile-first responsive layout with breakpoints at 768px (tablet) and 1024px (desktop)
+Semantic HTML5 landmarks (`header`, `nav`, `main`, `section`, `article`, `footer`)
+CSS Grid for macro page structure + Flexbox for micro components
+Fluid typography using `clamp()` for seamless scaling across screen sizes
+Scroll-triggered reveal animations using the Intersection Observer API
+Animated stat counters with cubic easing functions
+Fully functional contact form with input validation
+WCAG-compliant structure for accessibility & SEO
+2025 UI/UX aesthetic — warm, grounded Mocha Mousse palette
+Sticky navbar with scroll-based shadow
+CSS-only marquee strip animation
+Mobile hamburger menu with smooth transitions
+---
+📂 File Structure
+```
+Project-1_Responsive-Frontend/
+│
+├── index.html      ← Page structure & semantic HTML5
+├── style.css       ← Responsive styles, animations, layout
+├── script.js       ← Scroll reveal, counters, form logic
+└── README.md       ← This file
+```
+---
+📐 Design Principles Followed
+Mobile-First Strategy — Single column base, expanding with `min-width` media queries
+Semantic Integrity — Proper HTML5 landmarks for screen readers and AI
+No Frameworks Mandate — Pure HTML, CSS, and JS only
+WCAG Compliance — Accessible color contrast, aria-labels, keyboard navigation
+2025 UI Standards — Warm aesthetics, fluid layouts, purposeful motion
+---
+🧠 Key Learnings
+Why semantic HTML matters more than just using `<div>` for everything
+The difference between CSS Grid (macro layouts) and Flexbox (micro components)
+How `clamp()` eliminates the need for excessive media queries in typography
+Using the Intersection Observer API for performant scroll animations
+Mobile-first thinking: design constraints lead to better layouts
+---
+🔙 Back to Main Repo
+← DecodeLabs-Internship
