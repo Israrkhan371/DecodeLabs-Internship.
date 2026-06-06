@@ -67,9 +67,5 @@ DecodeLabs-Internship/
 
 ## 📬 Connect With Me
 
-- 💼 [LinkedIn](https://linkedin.com/in/your-profile)
+- 💼 [LinkedIn](www.linkedin.com/in/muhammad-israr-khan-06a06628b)
 - 🐙 [GitHub](https://github.com/Israrkhan371)
-
----
-
-*Built with curiosity, caffeine, and zero frameworks. ☕*
