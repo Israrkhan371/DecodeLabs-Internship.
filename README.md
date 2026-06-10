@@ -56,7 +56,7 @@ DecodeLabs-Internship/
 | **Goal** | Develop a simple backend REST API to handle application logic without a frontend |
 | **Tech Stack** | Node.js · Express.js |
 | **Key Skills** | REST API Design · HTTP Methods · JSON · Data Validation · Error Handling · Status Codes |
-| **Project README** | [View Details →](./Project-2_Backend-API/README.md) |
+| **Project README** | [View Details →](./Project-2_backend-api/README.md) |
 
 ---
 
